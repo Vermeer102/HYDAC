@@ -20,54 +20,6 @@ ID nummer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>561</x>
-      <y>132</y>
-      <w>154</w>
-      <h>143</h>
-    </coordinates>
-    <panel_attributes>Møde
---
-Ansvarshavende
-Antal 
-Navne
-Dato
-Tidspunkt
-Tid</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>847</x>
-      <y>132</y>
-      <w>110</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Besøgende
---
-Firma
-Navn</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>572</x>
-      <y>396</y>
-      <w>110</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>Mødelokale
---
-Nummer
-Navn
-Status
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
       <x>77</x>
       <y>154</y>
       <w>110</w>
@@ -87,38 +39,10 @@ Farve</panel_attributes>
       <h>55</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1
+m1=0-1
 m2=0..1
 </panel_attributes>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>704</x>
-      <y>176</y>
-      <w>165</w>
-      <h>55</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=1
-m2=1..*
-</panel_attributes>
-    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>616</x>
-      <y>264</y>
-      <w>66</w>
-      <h>154</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=0..1
-m2=1..14
-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -133,5 +57,21 @@ m1=1
 m2=0..*
 </panel_attributes>
     <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>561</x>
+      <y>132</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Ankomst
+--
+Dato
+Tidspunkt
+
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
