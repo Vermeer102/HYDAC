@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>188</x>
+      <y>460</y>
+      <w>144</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Medarbejder
+--
++ IdNummer: int
++ Navn: String
++ Smiley: smiley(farve: string)
+- ankomst: Ankomst[ ]
+- antalAnkomster: int?
+--
++ Medarbejder(idNummer: int, navn: string)
++ RegistrerAnkomst(ankomst: Ankomst, smiley: Smiley)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>236</x>
+      <y>532</y>
+      <w>12</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>196</x>
+      <y>576</y>
+      <w>84</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>Smiley
+--
++ Farve: String
+--
++ Smiley(farve: string)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>328</x>
+      <y>488</y>
+      <w>32</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>352</x>
+      <y>468</y>
+      <w>84</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Ankomst
+--
++ Dato: String
++ Tidspunkt: String
+--
++ Ankomst(dato: String, tidspunkt: String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
