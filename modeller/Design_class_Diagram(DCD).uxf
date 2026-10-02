@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>188</x>
-      <y>460</y>
+      <x>196</x>
+      <y>464</y>
       <w>144</w>
       <h>76</h>
     </coordinates>
@@ -15,7 +15,6 @@
 + Navn: String
 + Smiley: smiley(farve: string)
 - ankomst: Ankomst[ ]
-- antalAnkomster: int?
 --
 + Medarbejder(idNummer: int, navn: string)
 + RegistrerAnkomst(ankomst: Ankomst, smiley: Smiley)
@@ -25,8 +24,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>236</x>
-      <y>532</y>
+      <x>244</x>
+      <y>536</y>
       <w>12</w>
       <h>52</h>
     </coordinates>
@@ -36,8 +35,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>196</x>
-      <y>576</y>
+      <x>204</x>
+      <y>580</y>
       <w>84</w>
       <h>32</h>
     </coordinates>
@@ -51,8 +50,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>328</x>
-      <y>488</y>
+      <x>336</x>
+      <y>492</y>
       <w>32</w>
       <h>12</h>
     </coordinates>
@@ -62,17 +61,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>352</x>
-      <y>468</y>
+      <x>360</x>
+      <y>472</y>
       <w>84</w>
       <h>44</h>
     </coordinates>
     <panel_attributes>Ankomst
 --
-+ Dato: String
-+ Tidspunkt: String
++ Dato: DateTime
++ Tidspunkt: DateTime
 --
-+ Ankomst(dato: String, tidspunkt: String)</panel_attributes>
++ Ankomst(dato: DateTime, tidspunkt: DateTime)</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
