@@ -7,26 +7,29 @@ namespace Hydac
         static void Main(string[] args)
         {
             Console.WriteLine("\u001b[32m:) \u001b[33m:|\u001b[31m:( \u001b[0m");
-            int smileyChoice = int.Parse(Console.ReadLine());
-            
-            switch (smileyChoice)
+            int smileyChoice;
+            do
             {
-                case 1:
-                    Console.Clear();
-                    Console.WriteLine("\u001b[32m:) \u001b[0m");
-                    break;
-                case 2:
-                    Console.Clear();
-                    Console.WriteLine("\u001b[33m:| \u001b[0m");
-                    break;
-                case 3:
-                    Console.Clear();
-                    Console.WriteLine("\u001b[31m:( \u001b[0m");
-                    break;
-                default:
-                    Console.WriteLine("Ugyldigt valg");
-                    break;
-            }
+                smileyChoice = int.Parse(Console.ReadLine());
+                switch (smileyChoice)
+                {
+                    case 1:
+                        Console.Clear();
+                        Console.WriteLine("\u001b[32m:) \u001b[0m");
+                        break;
+                    case 2:
+                        Console.Clear();
+                        Console.WriteLine("\u001b[33m:| \u001b[0m");
+                        break;
+                    case 3:
+                        Console.Clear();
+                        Console.WriteLine("\u001b[31m:( \u001b[0m");
+                        break;
+                    default:
+                        Console.WriteLine("Ugyldigt valg");
+                        break;
+                }
+            } while (smileyChoice != 0);
             Console.ReadLine();
             //Menu valg
 
