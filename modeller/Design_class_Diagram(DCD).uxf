@@ -1,77 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>4</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>196</x>
-      <y>464</y>
-      <w>144</w>
-      <h>76</h>
+      <x>190</x>
+      <y>270</y>
+      <w>360</w>
+      <h>200</h>
     </coordinates>
-    <panel_attributes>Medarbejder
+    <panel_attributes>Worker
 --
-+ IdNummer: int
-+ Navn: String
-+ Smiley: smiley(farve: string)
-- ankomst: Ankomst[ ]
+- idNumber: int
++ IdNumber: int {get}
+- name: string
++ Name: string {get}
+- smiley: Smiley
++ Smiley: Smiley {get}
+- arrivals: Arrival[]
+- arrivalCount: int
 --
-+ Medarbejder(idNummer: int, navn: string)
-+ RegistrerAnkomst(ankomst: Ankomst, smiley: Smiley)
-</panel_attributes>
++ Worker(idNumber: int, name: string)
++ RegisterArrival(arrival: Arrival, smiley: Smiley): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>244</x>
-      <y>536</y>
-      <w>12</w>
-      <h>52</h>
+      <x>310</x>
+      <y>460</y>
+      <w>60</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>204</x>
-      <y>580</y>
-      <w>84</w>
-      <h>32</h>
+      <x>210</x>
+      <y>560</y>
+      <w>210</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Smiley
 --
-+ Farve: String
+- color: string
++ Color: string {get}
 --
-+ Smiley(farve: string)</panel_attributes>
++ Smiley(color: string)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>492</y>
-      <w>32</w>
-      <h>12</h>
+      <x>540</x>
+      <y>330</y>
+      <w>140</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=-&gt;
+m1=1
+m2=0..365</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>472</y>
-      <w>84</w>
-      <h>44</h>
+      <x>660</x>
+      <y>290</y>
+      <w>270</w>
+      <h>120</h>
     </coordinates>
-    <panel_attributes>Ankomst
+    <panel_attributes>Arrival
 --
-+ Dato: DateTime
-+ Tidspunkt: DateTime
+- date: DateTime
++ Date: DateTime {get}
+- time: DateTime
++ Time: DateTime {get}
 --
-+ Ankomst(dato: DateTime, tidspunkt: DateTime)</panel_attributes>
++ Arrival(date: DateTime, time: DateTime)</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

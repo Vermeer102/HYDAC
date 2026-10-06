@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>270</x>
-      <y>50</y>
-      <w>60</w>
-      <h>110</h>
+      <x>90</x>
+      <y>63</y>
+      <w>90</w>
+      <h>99</h>
     </coordinates>
-    <panel_attributes>Aktør</panel_attributes>
+    <panel_attributes>Medarbejder</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>510</x>
-      <y>120</y>
-      <w>100</w>
-      <h>30</h>
+      <x>324</x>
+      <y>126</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>:System</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>140</y>
-      <w>30</w>
-      <h>460</h>
+      <x>360</x>
+      <y>144</y>
+      <w>27</w>
+      <h>414</h>
     </coordinates>
     <panel_attributes>lt=&lt;..</panel_attributes>
     <additional_attributes>10.0;440.0;10.0;10.0</additional_attributes>
@@ -37,10 +37,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>140</y>
-      <w>30</w>
-      <h>460</h>
+      <x>126</x>
+      <y>144</y>
+      <w>27</w>
+      <h>414</h>
     </coordinates>
     <panel_attributes>lt=&lt;..</panel_attributes>
     <additional_attributes>10.0;440.0;10.0;10.0</additional_attributes>
@@ -48,10 +48,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>220</y>
-      <w>290</w>
-      <h>40</h>
+      <x>126</x>
+      <y>216</y>
+      <w>261</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 vælgMedarbejder</panel_attributes>
@@ -60,10 +60,10 @@ vælgMedarbejder</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>280</y>
-      <w>290</w>
-      <h>40</h>
+      <x>126</x>
+      <y>270</y>
+      <w>261</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 anmod om medarbejder nr</panel_attributes>
@@ -72,22 +72,22 @@ anmod om medarbejder nr</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>340</y>
-      <w>290</w>
-      <h>40</h>
+      <x>126</x>
+      <y>324</y>
+      <w>261</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-indtastMedarbejderNr</panel_attributes>
+indtastMedarbejderNr(medarbejderNr)</panel_attributes>
     <additional_attributes>270.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>480</y>
-      <w>290</w>
-      <h>40</h>
+      <x>126</x>
+      <y>450</y>
+      <w>261</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 systemet viser "God dag"</panel_attributes>
@@ -96,10 +96,10 @@ systemet viser "God dag"</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>400</y>
-      <w>290</w>
-      <h>40</h>
+      <x>126</x>
+      <y>378</y>
+      <w>261</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;..
 vis smileys</panel_attributes>
@@ -108,22 +108,22 @@ vis smileys</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>440</y>
-      <w>290</w>
-      <h>40</h>
+      <x>126</x>
+      <y>414</y>
+      <w>261</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-vælgSmileys (humør)</panel_attributes>
+vælgSmiley(humør)</panel_attributes>
     <additional_attributes>270.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>70</y>
-      <w>100</w>
-      <h>30</h>
+      <x>207</x>
+      <y>81</y>
+      <w>90</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>UC1</panel_attributes>
     <additional_attributes/>
