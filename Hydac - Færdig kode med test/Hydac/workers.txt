@@ -1,0 +1,7 @@
+1234;Anna
+2345;Mads
+3456;Sofie
+4567;Magnus
+1122;Felix
+1111;Sine
+2323;Nivine

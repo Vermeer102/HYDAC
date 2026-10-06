@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Hydac/Hydac.csproj" />
+  <Project Path="HydacTest/HydacTest.csproj" />
+</Solution>
